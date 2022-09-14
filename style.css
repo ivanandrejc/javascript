@@ -1,0 +1,17 @@
+.card-img-top{
+    height: 300px;
+}
+
+.precio{
+    font-weight: bold;
+}
+ul{
+    display: inline-block;
+}
+nav{
+    position: relative;
+}
+#carrito{
+    width: 50px;
+    position: absolute;
+}
