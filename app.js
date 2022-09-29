@@ -6,7 +6,7 @@ remera
 buzo y remera
 pantalon y remera
 combo completo (25% off)`);*/
-
+/*
 class producto {
     constructor(nombre , precio){
         this.nombre = nombre.toUpperCase();
@@ -24,6 +24,15 @@ const producto2 = new producto ("pantalon", "5500");
 const producto3 = new producto ("remera", "3500");
 
 let productos = [producto]
+*/
+
+const producto1 = {
+    nombre:"buzo",
+    precio:"7000"
+}
+
+const productobd = JSON.stringify(producto1)
+console.log(productobd)
 
 /*switch (ropa){
     case "buzo":
