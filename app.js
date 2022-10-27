@@ -149,11 +149,15 @@ function capturar(){
     }
     
 }
-
-
-
-
-/*function agregar(){
-    carrito.push({nombre,precio});
-    console.log(carrito);
-}*/
+fetch("data.json")
+  .then((response) => response.json())
+  .then((data) => (data.forEach((productos) => {
+    const li = document.createElement('li')
+    li.innerHTML = `
+        <h4>${productos.nombre}</h4>
+        <p>${productos.precio}</p>
+    `
+    lista.append(li)
+}
+  )));
+    
