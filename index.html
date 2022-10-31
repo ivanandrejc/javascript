@@ -16,42 +16,38 @@
       <li><a href=""></a>Inicio</li>
       <li><a href=""></a>Prendas</li>
     </ul>
-      <img id="carrito" src="img/carrito.png" alt="">
+      
   </nav>
     <div class="card-group">
-        <!-- <div class="card">
+        <div id="buzo"  class="card">
           <img src="img/buzo.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Buzo</h5>
             <p class="card-text precio">$8470</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <button onclick="capturar(`buzo`)"><img  class="carrito" src="img/carrito.png" alt="" ></button>
           </div>
-        </div> -->
-        <div class="card">
+        </div>
+        <div id="remera" class="card">
           <img src="img/remera.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Remera</h5>
             <p class="card-text precio">$4235</p>
-            <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+            <button   onclick="capturar(`remera`)"><img class="carrito" src="img/carrito.png" alt=""></button>
           </div>
         </div>
-        <div class="card">
+        <div id="pantalon" class="card">
           <img src="img/pantalon.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Pantalon</h5>
             <p class="card-text precio">$6655</p>
-            <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+            <button   onclick="capturar(`pantalon`)"><img class="carrito" src="img/carrito.png" alt=""></button>
           </div>
         </div>
       </div>
-    <form action="Contacto">
-        <input id="Nombre" type="text" placeholder="Ingrese producto" >
-        <button id="boton" class="btn btn-sucess" type="reset" onclick="capturar()">Agregar</button>
-    </form> 
     <h2>Carrito:</h2>
     <div class="contenedor"></div>
     <script src="app.js"></script>   
-    <script src="<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

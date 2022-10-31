@@ -1,9 +1,17 @@
-{
-"productos": [
+[
     {
-        "nombre": "Buzo",
+        "id" : 1,
+        "nombre": "buzo",
         "precio": 8470
+    },
+    {
+        "id" : 2 ,
+        "nombre": "remera",
+        "precio": 4235
+    },
+    {
+        "id" : 3, 
+        "nombre": "pantalon",
+        "precio": 6655
     }
-
 ]
-}
